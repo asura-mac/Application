@@ -1,6 +1,6 @@
 import React from "react";
 import product from "../assets/product.png";
-import employment from "../assets/Employment.png";
+import employment from "../assets/employment.png";
 import digital from "../assets/digital.png";
 export default function Donations() {
   const cards = [

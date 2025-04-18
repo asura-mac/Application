@@ -14,25 +14,28 @@ export default function Blog() {
 
   useEffect(() => {
     const fetchBlogs = async () => {
-      
       try {
-        setLoading(true)
-        const res = await fetch("http://localhost:5000/api/blogs");
+        setLoading(true);
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/blogs`);
+        
+        if (!res.ok) {
+          throw new Error("Network response was not ok");
+        }
+  
         const data = await res.json();
         setBlogPosts(data);
         setSelectedPost(data[0]); // Set the first blog as selected
-        setLoading(false)
       } catch (err) {
-        setLoading(false)
         setError("Failed to load blogs.");
-        console.error(err);
+        console.error("Blog fetch error:", err);
       } finally {
         setLoading(false);
       }
     };
-
+  
     fetchBlogs();
   }, []);
+  
 
   
   if (error) return <p className="text-center mt-10 text-red-600">{error}</p>;
