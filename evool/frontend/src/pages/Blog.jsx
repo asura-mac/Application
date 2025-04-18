@@ -16,7 +16,7 @@ export default function Blog() {
     const fetchBlogs = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/blogs`);
+        const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/blogs`);
         
         if (!res.ok) {
           throw new Error("Network response was not ok");
