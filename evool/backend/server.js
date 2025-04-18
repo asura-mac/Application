@@ -26,5 +26,5 @@ mongoose.connect(process.env.DATABASE_URL, {
 app.use("/api/contact", contactRoutes);
 app.use("/api/blogs", blogRoutes);
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://0.0.0.0:${PORT}`);
+  console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
