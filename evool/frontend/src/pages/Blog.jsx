@@ -8,6 +8,9 @@ export default function Blog() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
+
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 5);
   };
@@ -16,7 +19,7 @@ export default function Blog() {
     const fetchBlogs = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/blogs`);
+        const res = await fetch(`${BASE_URL}/api/blogs`);
         
         if (!res.ok) {
           throw new Error("Network response was not ok");

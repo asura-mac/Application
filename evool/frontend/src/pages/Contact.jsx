@@ -1,6 +1,8 @@
 
 import { useState } from "react";
 
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 const Contact = () => {
   const [contactData, setContactData] = useState({
     email: "",
@@ -46,7 +48,7 @@ const Contact = () => {
     setContactLoading(true);
   
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/contact`, {
+      const response = await fetch(`${BASE_URL}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
