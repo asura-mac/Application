@@ -7,10 +7,7 @@ export default function GetInvolved() {
             GET INVOLVED
           </h2>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
-            This is not a solo mission. We need individuals who wish to build,
-            repair, and fight for something greater. Designers, volunteers,
-            writers, techies—if you have time or heart to spare, we'll put it to
-            use for the greater good.
+          Change does not happen alone. It needs people, real people, to get together to make something better. We at Evool Foundation believe that there is something that everyone can bring. If you are a tech expert, a student, or simply a concerned individual, there is a place for you here. Come and join hands with us to build a world where everyone is welcome. 
           </p>
         </header>
       </div>
@@ -25,35 +22,27 @@ export default function GetInvolved() {
       <div className="mt-12 flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-7xl mx-auto px-4 py-24">
         {/* Card 1 */}
         <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[250px]">
-          <h4 className="text-xl font-semibold mb-4">How You Can Help</h4>
+          <h4 className="text-xl font-semibold mb-4">Highlight Your Strengths</h4>
           <p className="text-gray-600">
-            Bring Real Change Through Technology If you have the ability to
-            create apps, build websites, or manage digital tools, your work can
-            directly impact local communities. Whether you're a small business
-            owner or a job seeker, your work can hit where it counts.
+          Do you design, build, write, or have a talent and passion that you'd love to share? We might just need your help. From technology development to word-of-mouth, the time you give could be the difference.
           </p>
         </article>
 
         {/* Card 2 */}
         <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[250px]">
           <h4 className="text-xl font-semibold mb-4">
-            Share What You're Good At
+          Fund or Support a Project
           </h4>
           <p className="text-gray-600">
-            No matter whether you write, design, code, or simply want to
-            contribute—there's a place for you here. Assist us and use your
-            skills to empower individuals to build better futures.
+          Your resources—financial, technical, or material—can take us further, enabling us to reach more people and build smarter, cleaner systems for all.
           </p>
         </article>
 
         {/* Card 3 */}
         <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[250px]">
-          <h4 className="text-xl font-semibold mb-4">Help Us Reach Further</h4>
+          <h4 className="text-xl font-semibold mb-4">Partner with Us</h4>
           <p className="text-gray-600">
-            With your contributions, we can create and sustain the tools that
-            are really worth it. Each donation—big or small—allows us to create
-            job platforms, open up access to services, and push green
-            technology.
+          We prefer working together. NGOs, startups, companies, or community organizations, whether you're motivated to do social good or not, let's do something that matters together.
           </p>
         </article>
       </div>

@@ -1,6 +1,6 @@
-import research from "./../assets/R&D.png";
-import server from "./../assets/server.png";
-import team from "./../assets/Team.png";
+import research from "./../assets/R&D.webp";
+import server from "./../assets/server.webp";
+import team from "./../assets/Team.webp";
 
 export default function NeedSupport() {
   return (
@@ -13,12 +13,7 @@ export default function NeedSupport() {
               SUPPORT EVOOL FOUNDATION
             </h1>
             <p className="text-lg md:text-[1.6rem] text-gray-700 leading-relaxed max-w-5xl mx-auto">
-              Real change requires real support. At the Evool Foundation, your
-              support drives the technology that resolves daily challenges,
-              enables small businesses, and generates jobs. Your time, your
-              talent, or your investment – every bit matters and gets us closer
-              to our goal of developing sustainable, affordable solutions that
-              really change lives and communities for the better.
+            When you donate to Evool Foundation, you're not just donating to a cause, you're donating to action. Every contribution, whether big or small, brings us closer to where technology can do the most good. You're donating to a future that's more connected, more equal, more green. Through your donation, we don't just build solutions, we build dignity, strength, and hope that reaches far beyond the screen.
             </p>
           </header>
         </div>

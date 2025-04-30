@@ -1,4 +1,4 @@
-import OurProjectImage from "../assets/project.png";
+import OurProjectImage from "../assets/project.webp";
 
 export default function Project() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "./../assets/banner.png";
+import banner from "./../assets/banner.webp";
 
 export default function Banner() {
   return (
@@ -9,18 +9,12 @@ export default function Banner() {
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <h1 className="text-[36px] sm:text-[24px] font-bold text-[#0A0A0A] leading-tight tracking-tight font-dmSans">
             <span className="text-[#008CFF]">
-              Crafting Transformation with Passion and Technology
+              Using Technology to Heal, Help, and Uplift
             </span>
           </h1>
 
           <p className="text-[#666666] mt-6 text-base sm:text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
-            We're not some nameless NGO. We're a group of people who became
-            tired of seeing the same problems continue unpublished—and decided
-            to do something about it. At Evool Foundation, we use technology as
-            a way to repair the cracks of daily life. Whether it's helping
-            someone find a job, supporting small business owners, or improving
-            the services we use every day—we make things accessible, usable, and
-            impactful.
+          At Evool Foundation, we have a strong conviction that technology must work for humanity, and not the other way around. We are not just building platforms; we are building bridges. Bridges to better health, to equal opportunities, to a better planet. This is not innovation; this is innovation with heart.
           </p>
 
           <a

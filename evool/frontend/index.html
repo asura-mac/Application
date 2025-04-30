@@ -25,7 +25,8 @@
       property="og:image"
       content="https://evoolfoundation.org/evool_t.png"
     />
-
+    <meta property="og:site_name"
+    content="Evool Foundation" />
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Join Evool–Tech that Helps" />
@@ -39,8 +40,67 @@
     />
     <meta name="twitter:site" content="@EvoolFoundation" />
     <meta property="og:site_name" content="Evool Foundation" />
+    <meta name="twitter:description" content="We’re solving everyday problems with smart technology. Support Evool Foundation to bring jobs, access & sustainability across India." />
     <!-- canonical tag -->
     <link rel="canonical" href="https://evoolfoundation.org" />
+
+    <!--Schemas-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://evoolfoundation.org/#organization",
+        "name": "Evool Foundation",
+        "url": "https://evoolfoundation.org",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://evoolfoundation.org"
+        },
+        "logo": "https://evoolfoundation.org/images/logo.png",
+        "description": "Evool Foundation is a nonprofit organization in India using technology to solve real-world problems and create sustainable impact.",
+        "email": "contactus@evoolfoundation.org",
+        "foundingDate": "2024-09-05",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "IN"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "email": "contactus@evoolfoundation.org",
+            "contactType": "Customer Support",
+            "url": "https://evoolfoundation.org/contact",
+            "availableLanguage": ["English", "Hindi"]
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/EvoolFoundation",
+          "https://twitter.com/EvoolFoundation",
+          "https://www.instagram.com/EvoolFoundation",
+          "https://www.linkedin.com/company/evoolfoundation"
+        ],
+        "hasPart": [
+          {
+            "@type": "WebPage",
+            "@id": "https://evoolfoundation.org/about",
+            "name": "About Us",
+            "url": "https://evoolfoundation.org/about"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://evoolfoundation.org/contact",
+            "name": "Contact Us",
+            "url": "https://evoolfoundation.org/contact"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://evoolfoundation.org/donate",
+            "name": "Donate",
+            "url": "https://evoolfoundation.org/donate"
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
