@@ -1,8 +1,7 @@
 import React from "react";
-import BusinessGrowthImage from "../assets//Technology.png";
-import JobOpportunitiesImage from "../assets/Building.png";
-import SustainabilityImage from "../assets/Maintaining.png";
-
+import DailyLifeImage from "../assets/DailyLife.webp"
+import SmallBusinessImage from "../assets/SmallBusiness.webp"
+import SustainabilityImage from "../assets/Sustainable.webp"
 export default function WhatWeDo() {
   return (
     <section id="what-we-do" className="w-full py-20 bg-white">
@@ -17,18 +16,15 @@ export default function WhatWeDo() {
         <article className="bg-white rounded-2xl shadow-lg p-8 max-w-sm w-full text-center flex flex-col justify-between h-[auto] md:h-[450px]">
           <figure
             className="w-full h-36 sm:h-28 bg-cover bg-center rounded-t-2xl border mb-8"
-            style={{ backgroundImage: `url(${BusinessGrowthImage})` }}
+            style={{ backgroundImage: `url(${DailyLifeImage})` }}
           ></figure>
           <header>
             <h3 className="text-xl font-semibold mb-4">
-              Technology for Solving Everyday Problems
+            Make Daily Life Simpler 
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-            From an order management system for local retailers, to a mobile
-            phone application that connects people with free healthcare info—our
-            projects are designed for individuals who actually use them. No
-            fancy jargon. Just honest answers to real problems.
+          Our digital platforms are designed to cover the gaps within everyday life. From receiving high-quality care to accessing job opportunities or connecting to local services, we develop solutions that make life easier and more accessible, particularly to those most in need. 
           </p>
         </article>
 
@@ -36,18 +32,15 @@ export default function WhatWeDo() {
         <article className="bg-white rounded-2xl shadow-lg p-8 max-w-sm w-full text-center flex flex-col justify-between h-[auto] md:h-[450px]">
           <figure
             className="w-full h-36 sm:h-28 bg-cover bg-center rounded-t-2xl border mb-8"
-            style={{ backgroundImage: `url(${JobOpportunitiesImage})` }}
+            style={{ backgroundImage: `url(${SmallBusinessImage})` }}
           ></figure>
           <header>
             <h3 className="text-xl font-semibold mb-4">
-              Building Opportunities, One Platform at a Time
+            Assisting Small Businesses to Grow
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-            Each solution we develop creates avenues for work. A website needs
-            someone to manage it, an app relies on good content, and a service
-            requires committed support personnel. Our methodology naturally
-            builds avenues for people to earn.
+          It is a common fact that local businesses have a hard time competing. Accordingly, we provide hands-on assistance from the building of websites to the handling of marketing strategies, and small and medium businesses can develop, differentiate, and thrive in a competing environment.
           </p>
         </article>
 
@@ -59,13 +52,11 @@ export default function WhatWeDo() {
           ></figure>
           <header>
             <h3 className="text-xl font-semibold mb-4">
-              Maintaining It Green and Smart
+            Work Towards a More Sustainable Future
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-            We work hard not to create waste. We print less, fly less, and
-            optimize efficiency. Our solutions are designed to assist the
-            planet, not hinder it. And yeah—we also promote that attitude
+          It need not be a chore to go green. Our technology-based solutions like paperless procedure, green identification systems, and others can quite easily make it feasible for people and companies to help reduce their print and make the world a cleaner and greener place.
           </p>
         </article>
       </div>

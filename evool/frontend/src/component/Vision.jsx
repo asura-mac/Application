@@ -1,5 +1,5 @@
 import React from "react";
-import OurVisionImage from "../assets/vission.png";
+import OurVisionImage from "../assets/vission.webp";
 
 export default function Vision() {
 	return (

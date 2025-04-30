@@ -1,4 +1,4 @@
-import OurMissionImage from "../assets/mission.png";
+import OurMissionImage from "../assets/mission.webp";
 
 export default function Mission() {
   return (

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import AboutUsImage from "../assets/about.png";
+import AboutUsImage from "../assets/about.webp";
 
 export default function About() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -30,13 +30,10 @@ export default function About() {
           </header>
           <div className="text-lg md:text-[1.6rem] text-gray-700 leading-relaxed">
       <p className={`${isExpanded ? '' : 'line-clamp-4'} transition-all`}>
-        We're a nonprofit, India-housed, and our attention reaches out across virtual space and physical groups.
-        What do we do, you wonder? We build apps, websites, and tools—whatever is needed to solve real-world problems.
-        Whether someone is left with few job opportunities or a small business is seeking to build an online presence,
-        we build solutions for their specific needs. Our approach is more than simple coding—we listen. We engage people,
-        understand the barriers they face, and then craft tools that offer relief. We empower young individuals, aiming
-        to create opportunities for employment while simplifying life for street vendors. We remain steadfastly focused
-        on what truly matters.
+      The Evool Foundation is a not-for-profit entity founded on a very simple but extraordinary concept: all human beings must have equal access to a brighter future. Since technology is expanding at an unbelievable pace, far too many human beings are being left behind. This is the challenge that we have set out to overcome and transform.
+      <br/>
+      <br/>
+      In fact, we build tools, but we also nurture potential. For micro-entrepreneurs who want to progress, for caregivers seeking reliable resources, and for communities willing to thrive but held back by a lack of technology. Our purpose is where the essence of social work's compassion intersects with the leading edge of today's innovation, so that real change is never just a dream but a real reality.
       </p>
       <button
         onClick={handleToggle}
