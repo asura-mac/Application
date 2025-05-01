@@ -59,9 +59,9 @@ export default function Donations() {
         Become part of the movement. Be part of the{" "}
           <span className="text-[#008cff]">CHANGE!</span>
         </h2>
-        {/* <button className="bg-[#008cff] text-white text-lg font-semibold px-10 py-3 rounded-full shadow-lg hover:bg-blue-700 transition duration-300">
+        <button  onClick={() => window.open('https://voolata.com/donation/dashboard', '_blank')} className="bg-[#008cff] text-white text-lg font-semibold px-10 py-3 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 cursor-pointer">
           Donate
-        </button> */}
+        </button>
       </section>
     </main>
   );

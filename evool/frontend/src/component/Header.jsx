@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./../assets/evool_t.png";
+import logo from "./../assets/evool_t.webp";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 
 const menuItems = [

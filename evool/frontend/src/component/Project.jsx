@@ -4,7 +4,7 @@ export default function Project() {
   return (
     <section
       id="project"
-      className="w-full min-h-screen flex items-center justify-center py-24 my-20"
+      className="w-full min-h-screen flex items-center justify-center py-24 my-4 sm:my-10 lg:my-20"
     >
       <div className="flex flex-col lg:flex-row items-center justify-between w-[85%] mx-auto  gap-10 md:gap-20 p-10">
         {/* Left Side - Text Content */}

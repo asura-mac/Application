@@ -4,7 +4,7 @@ import SmallBusinessImage from "../assets/SmallBusiness.webp"
 import SustainabilityImage from "../assets/Sustainable.webp"
 export default function WhatWeDo() {
   return (
-    <section id="what-we-do" className="w-full py-20 bg-white">
+    <section id="what-we-do" className="w-full py-20 bg-white my-4 sm:my-10 lg:my-20">
       {/* Section Header */}
       <header className="text-center mb-16 px-4">
         <h2 className="text-4xl sm:text-6xl font-semibold">What We Do</h2>

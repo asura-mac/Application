@@ -97,7 +97,6 @@ const Contact = () => {
               <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <path d="M3 5a2 2 0 012-2h3.28l1.498 4.493-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257 4.493 1.498V19a2 2 0 01-2 2H5a2 2 0 01-2-2V5z" />
               </svg>
-              <span>+91 91368 95794</span>
             </div>
 
             <div className="flex items-start gap-2">

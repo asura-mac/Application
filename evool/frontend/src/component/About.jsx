@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="w-full min-h-screen flex items-center justify-center py-12 my-20"
+      className="w-full min-h-screen flex items-center justify-center py-12 my-4 sm:my-10 lg:my-20"
     >
       <div className="flex flex-col lg:flex-row items-center justify-between w-[85%] mx-auto bg-[#EDF4FF] rounded-xl gap-10 md:gap-20 p-10">
         {/* Left Side - Image */}

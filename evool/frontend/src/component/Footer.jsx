@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./../assets/evool_t.png";
+import logo from "./../assets/evool_t.webp";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 const menuItems = [
   { label: "Our Mission", path: "#mission" },
@@ -52,7 +52,7 @@ export default function Footer() {
               <img
                 src={logo}
                 alt="Evool Foundation Logo"
-                className="w-28 mr-2"
+                className="w-16 mr-2"
               />
               <span className="text-[1.3rem] font-bold tracking-wide uppercase">
                 EVOOL FOUNDATION
@@ -88,7 +88,6 @@ export default function Footer() {
             <section>
               <h2 className="text-xl font-medium">Contact</h2>
               <ul className="mt-4 space-y-2 text-sm">
-                <li>+91 91368 95794</li>
                 <li>contactus@evoolfoundation.org</li>
                 <li>
                   105, P-17, Omkar CHS Ltd,

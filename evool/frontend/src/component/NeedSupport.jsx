@@ -6,7 +6,7 @@ export default function NeedSupport() {
   return (
     <>
       {/* Support Section */}
-      <section className="w-full max-w-[85%] mx-auto my-20">
+      <section className="w-full max-w-[85%] mx-auto my-4 sm:my-10 lg:my-20">
         <div className="bg-[#EDF4FF] rounded-xl py-20 px-6 sm:px-10 text-center">
           <header>
             <h1 className="text-4xl sm:text-6xl font-semibold text-navy-900 mb-10">
