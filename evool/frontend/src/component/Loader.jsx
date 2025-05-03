@@ -11,6 +11,7 @@ export default function Loader() {
         muted
         playsInline
         preload="auto"
+        controls={false}
         className="w-48 h-48 object-contain"
       />
     </div>
