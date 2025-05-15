@@ -20,8 +20,7 @@ export default function Vision() {
 						OUR VISION
 					</h1>
 					<p className="text-lg md:text-[1.6rem] text-gray-700 leading-relaxed">
-					A world where technology assists those who need it most.
- We dream of an India where even the smallest townships are connected, where there is no wastage of talent, and where it is  easier to do good than to do nothing
+					We envision an India where technology works for everyone — helping every individual lead a better life, earn with dignity, and contribute to a cleaner, more equal society.
 					</p>
 				</div>
 			</div>

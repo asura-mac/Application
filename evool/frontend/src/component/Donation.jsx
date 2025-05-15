@@ -5,18 +5,18 @@ import sdgs from "../assets/sdgs.webp"
 export default function Donations() {
   const cards = [
     {
-      title: "Access for All",
-      desc: `Every contribution you make enables us to create more effective tools that direct individuals towards essential services, especially in disadvantaged communities where access is limited.`,
+      title: "Accessible Tools for All",
+      desc: `Your support ensures that essential tech reaches people in low-resource settings across India.`,
       img: access,
     },
     {
-      title: "Empowering Small Businesses",
-      desc: `With your support, we offer marketing support, improve websites, and provide professional guidance to small enterprises that want to compete and develop.`,
+      title: "Boost to Local Economies",
+      desc: `Our work supports micro-entrepreneurs and job-seekers in making consistent, tech-driven income.`,
       img: empower,
     },
     {
-      title: "Development in Line with SDGs",
-      desc: `With each step we take, we move closer to global aspirations, like closing the gap in inequality, enhancing employment opportunities, combating climate change, and narrowing the digital divide.`,
+      title: "Steps Toward a Greener Future",
+      desc: `With your help, we build sustainable systems that cut waste and support India’s environmental goals.`,
       img: sdgs,
     },
   ];
@@ -50,18 +50,18 @@ export default function Donations() {
       {/* Section: Call to Action */}
       <section className="text-center my-20 px-6 max-w-5xl mx-auto">
         <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-          The Evool Foundation is not nomenclature; it's a movement. A movement to show that technology can be powerful yet soft, intimate even, simultaneously.
+          Evool Foundation isn’t just a name—it’s a vision. A vision where technology feels human, where solutions are built not for profit, but for people. We believe progress should belong to everyone—no matter who they are or where they live.
           <br />
           <br />
-          A world where potential is shared, where all people have a stake in progress, and technology is used for the benefit of all. If that's what you believe in, we invite you to join us. We're building that world, solution by solution, together.
+          If you believe technology should uplift, not exclude—if you believe in collective action, everyday change, and purpose-driven impact—then you're already part of this story.
         </p>
         <h2 className="text-3xl md:text-4xl font-bold mb-10 mt-10">
         Become part of the movement. Be part of the{" "}
           <span className="text-[#008cff]">CHANGE!</span>
         </h2>
-        <button  onClick={() => window.open('https://voolata.com/donation/dashboard', '_blank')} className="bg-[#008cff] text-white text-lg font-semibold px-10 py-3 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 cursor-pointer">
+        {/* <button  onClick={() => window.open('https://voolata.com/donation/dashboard', '_blank')} className="bg-[#008cff] text-white text-lg font-semibold px-10 py-3 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 cursor-pointer">
           Donate
-        </button>
+        </button> */}
       </section>
     </main>
   );

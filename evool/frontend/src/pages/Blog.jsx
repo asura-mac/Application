@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 import Loader from "../component/Loader";
 
 export default function Blog() {
@@ -44,6 +45,29 @@ export default function Blog() {
   if (error) return <p className="text-center mt-10 text-red-600">{error}</p>;
 
   return (
+    <>
+    <Helmet>
+    <title>
+    Evool Foundation Blog – Insights on Innovation, Employment & Sustainability in India
+    </title>
+    <meta
+    name="description"
+    content="Explore Evool Foundation's latest articles on technological innovations, employment generation, and sustainable development initiatives across India."/>
+    <meta
+    name="keywords"
+    content="Evool Foundation blog, innovation in India, employment generation, sustainability, NGO initiatives, technology for good, social impact India, donate to NGO India, support tech for good, empower rural India, nonprofit tech India, technology for social impact, sustainable innovation India"/>
+    <meta property="og:title" content="Evool Foundation Blog" />
+    <meta
+    property="og:description"
+    content="Explore Evool Foundation's latest articles on tech, employment, and sustainable development across India."
+    />
+    <meta property="og:url" content="https://evoolfoundation.org/blog" />
+    <meta
+    property="og:image"
+    content="https://evoolfoundation.org/evool_og.png" 
+    />
+  </Helmet>
+
     <main className="w-[85%] mx-auto flex flex-col md:flex-row min-h-screen my-24">
       {/* Left Section: Blog Content */}
       <article className="md:w-3/5 w-full p-6">
@@ -111,5 +135,6 @@ export default function Blog() {
       </aside>
        {loading && <Loader/>} 
     </main>
+    </>
   );
 }

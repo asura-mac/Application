@@ -17,9 +17,7 @@ export default function Mission() {
               </h2>
             </header>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              To create products and services that actually connect—people,
-              society, and the future. That is, to create more jobs, increase
-              access to support, and discover better ways to live sustainably.
+              To solve real-world problems through inclusive technology that uplifts communities, fosters jobs, and strengthens sustainable living across India.
             </p>
           </div>
 

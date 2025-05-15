@@ -13,7 +13,7 @@ export default function NeedSupport() {
               SUPPORT EVOOL FOUNDATION
             </h1>
             <p className="text-lg md:text-[1.6rem] text-gray-700 leading-relaxed max-w-5xl mx-auto">
-            When you donate to Evool Foundation, you're not just donating to a cause, you're donating to action. Every contribution, whether big or small, brings us closer to where technology can do the most good. You're donating to a future that's more connected, more equal, more green. Through your donation, we don't just build solutions, we build dignity, strength, and hope that reaches far beyond the screen.
+            Every step we take is powered by people who care. Your support helps us grow what we start, reach further, and stay rooted in values. Whether it’s monthly help or a single gesture—your backing moves real-world change forward.
             </p>
           </header>
         </div>
@@ -37,14 +37,11 @@ export default function NeedSupport() {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <h3 className="text-xl font-semibold text-left">
-                Research and Development
+                Design with Purpose
               </h3>
             </div>
             <p className="text-gray-600 text-left">
-              We don't assume to understand what individuals need; we inquire,
-              listen, and then we build. This is a process that requires time,
-              effort, and much learning. Your support enables us to lay the
-              groundwork.
+               Your support helps us reach communities, understand pain points, and design useful tech responses.
             </p>
           </article>
 
@@ -57,14 +54,11 @@ export default function NeedSupport() {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <h3 className="text-xl font-semibold text-left">
-                Server and Maintenance Costs
+                Sustain What We Build
               </h3>
             </div>
             <p className="text-gray-600 text-left">
-              Tech has quiet but constant needs servers, bug fixes,
-              upgrades—none of these are likely to be glamorous, but all are
-              necessary. Your efforts do a great deal to keep the lights on and
-              our tools not only functioning but still functioning.
+              Help us keep our platforms active, accessible, and ever-improving through reliable support.
             </p>
           </article>
 
@@ -76,13 +70,10 @@ export default function NeedSupport() {
                 alt="Support Avatar"
                 className="w-16 h-16 rounded-full object-cover"
               />
-              <h3 className="text-xl font-semibold text-left">Team Support</h3>
+              <h3 className="text-xl font-semibold text-left">Uplift Ground Teams </h3>
             </div>
             <p className="text-gray-600 text-left">
-              We are powered by people No behind-thescenes trickery here—it's
-              writers, programmers, and individuals talking to actual
-              individuals on the ground. You're helping us, and helping a team
-              that's doing it for the right reasons.
+               Power the people who research, develop, and roll out solutions that genuinely change lives.
             </p>
           </article>
         </div>

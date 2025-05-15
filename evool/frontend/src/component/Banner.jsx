@@ -9,12 +9,12 @@ export default function Banner() {
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <h1 className="text-[36px] sm:text-[24px] font-bold text-[#0A0A0A] leading-tight tracking-tight font-dmSans">
             <span className="text-[#008CFF]">
-              Using Technology to Heal, Help, and Uplift
+              Technology That Solves, Supports, and Sustains India
             </span>
           </h1>
 
           <p className="text-[#666666] mt-6 text-base sm:text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
-          At Evool Foundation, we have a strong conviction that technology must work for humanity, and not the other way around. We are not just building platforms; we are building bridges. Bridges to better health, to equal opportunities, to a better planet. This is not innovation; this is innovation with heart.
+           At Evool Foundation, we use smart technology to solve everyday problems, build livelihoods, and inspire a sustainable future. Our mission is rooted in real challenges faced by real people—across towns, cities, and villages of India.
           </p>
 
           <a

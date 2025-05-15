@@ -20,11 +20,11 @@ export default function WhatWeDo() {
           ></figure>
           <header>
             <h3 className="text-xl font-semibold mb-4">
-            Make Daily Life Simpler 
+            Tackle Daily Life Challenges 
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-          Our digital platforms are designed to cover the gaps within everyday life. From receiving high-quality care to accessing job opportunities or connecting to local services, we develop solutions that make life easier and more accessible, particularly to those most in need. 
+          We create tools that make everyday tasks simpler, smarter, and more accessible for all. 
           </p>
         </article>
 
@@ -36,11 +36,11 @@ export default function WhatWeDo() {
           ></figure>
           <header>
             <h3 className="text-xl font-semibold mb-4">
-            Assisting Small Businesses to Grow
+            Empower Employment Opportunities
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-          It is a common fact that local businesses have a hard time competing. Accordingly, we provide hands-on assistance from the building of websites to the handling of marketing strategies, and small and medium businesses can develop, differentiate, and thrive in a competing environment.
+          We support income generation by connecting people with scalable, tech-based work possibilities.
           </p>
         </article>
 
@@ -52,11 +52,11 @@ export default function WhatWeDo() {
           ></figure>
           <header>
             <h3 className="text-xl font-semibold mb-4">
-            Work Towards a More Sustainable Future
+            Promote Sustainable Lifestyles
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-          It need not be a chore to go green. Our technology-based solutions like paperless procedure, green identification systems, and others can quite easily make it feasible for people and companies to help reduce their print and make the world a cleaner and greener place.
+           We reduce waste and resource strain through digital-first, eco-conscious alternatives.
           </p>
         </article>
       </div>
