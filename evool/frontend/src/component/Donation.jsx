@@ -6,17 +6,17 @@ export default function Donations() {
   const cards = [
     {
       title: "Accessible Tools for All",
-      desc: `Your support ensures that essential tech reaches people in low-resource settings across India.`,
+      desc: `Your support helps us develop intuitive platforms that bring vital services and resources to every citizen—especially those left out by traditional systems—creating equal opportunities to thrive, regardless of geography, income level, or social status.`,
       img: access,
     },
     {
       title: "Boost to Local Economies",
-      desc: `Our work supports micro-entrepreneurs and job-seekers in making consistent, tech-driven income.`,
+      desc: `We use technology to create real, inclusive economic opportunities for micro-entrepreneurs, job-seekers, and small businesses—fueling income generation and resilience from the grassroots, all across India’s fast-growing and often underrepresented talent landscape.`,
       img: empower,
     },
     {
       title: "Steps Toward a Greener Future",
-      desc: `With your help, we build sustainable systems that cut waste and support India’s environmental goals.`,
+      desc: `We design systems that work for both people and the planet—building digital solutions that reduce waste, encourage eco-responsible practices, and move India closer toward its sustainability and climate resilience goals, one community at a time.`,
       img: sdgs,
     },
   ];

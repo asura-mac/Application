@@ -24,7 +24,7 @@ export default function GetInvolved() {
         <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[350px] md:h-[250px]">
           <h4 className="text-xl font-semibold mb-4">Volunteer Your Skills</h4>
           <p className="text-gray-600">
-          Share your talents in design, development, writing, or outreach to help us build smarter tools.
+          Share your time and talents—whether in design, development, writing, or outreach—to directly contribute to building inclusive, tech-driven solutions that serve people better and solve real challenges on the ground across diverse communities in India.
           </p>
         </article>
 
@@ -34,7 +34,7 @@ export default function GetInvolved() {
           Contribute Resources
           </h4>
           <p className="text-gray-600">
-          Support our mission through donations, infrastructure, or by spreading the word in your network.
+          Support our mission through financial donations, tools, software access, or by simply spreading awareness in your circles. Every contribution helps us sustain and scale grassroots innovations that empower lives and improve systems for the long term.
           </p>
         </article>
 
@@ -42,7 +42,7 @@ export default function GetInvolved() {
         <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[350px] md:h-[250px]">
           <h4 className="text-xl font-semibold mb-4">Collaborate for Change</h4>
           <p className="text-gray-600">
-           Partner with us as an organisation, institution, or changemaker to co-create real-world impact.
+           If you're part of an organisation, institute, or impact-driven team—collaborate with us to co-create scalable solutions. Together, we can design purpose-first platforms that address India’s evolving needs and uplift entire ecosystems with shared effort.
           </p>
         </article>
       </div>
