@@ -15,7 +15,7 @@ export default function Project() {
             </h2>
           </header>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-            Each Evool project begins with listening. We identify overlooked problems faced by everyday Indians and design meaningful tech solutions that address them—whether it’s improving access, reducing effort, or opening doors to new possibilities. Our work grows from need, not noise.
+            At Evool Foundation, every project begins by asking: “What real problem are people facing today?” We listen closely to communities—urban and rural—to uncover everyday struggles that often go unnoticed. Whether it’s the challenge of accessing trusted services, limited income opportunities, or the environmental cost of daily choices, our work grows from real needs—not assumptions. Each project is designed to be practical, inclusive, and scalable. We turn observations into solutions by creating tools that simplify access, reduce effort, and open new doors. Our platforms are built to support real lives, not just improve numbers—because true impact comes from how thoughtfully technology is applied.
           </p>
         </article>
 

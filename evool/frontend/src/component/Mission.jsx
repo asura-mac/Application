@@ -17,7 +17,8 @@ export default function Mission() {
               </h2>
             </header>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              To solve real-world problems through inclusive technology that uplifts communities, fosters jobs, and strengthens sustainable living across India.
+              Our mission is to build meaningful, everyday solutions that truly matter to people. At Evool Foundation, we aim to use digital platforms and simple tools to solve problems that often go unnoticed—from access issues in remote areas to gaps in earning opportunities. We believe in creating inclusive technology that anyone can use, regardless of background or location. By focusing on usefulness and empathy, our mission is to make life easier, jobs more accessible, and choices more sustainable—for every Indian.
+
             </p>
           </div>
 

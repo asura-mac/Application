@@ -14,7 +14,7 @@ export default function Banner() {
           </h1>
 
           <p className="text-[#666666] mt-6 text-base sm:text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
-           At Evool Foundation, we use smart technology to solve everyday problems, build livelihoods, and inspire a sustainable future. Our mission is rooted in real challenges faced by real people—across towns, cities, and villages of India.
+           At Evool Foundation, we build simple, meaningful tech solutions to solve everyday problems, support livelihoods, and create a more sustainable tomorrow. Rooted in the real-life struggles of people across India, our mission is to make technology truly useful—accessible to all, driven by purpose, and built for impact.
           </p>
 
           <a

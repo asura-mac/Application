@@ -30,7 +30,9 @@ export default function About() {
           </header>
           <div className="text-lg md:text-[1.6rem] text-gray-700 leading-relaxed">
       <p className={`${isExpanded ? '' : 'line-clamp-4'} transition-all`}>
-      Evool Foundation is a nonprofit initiative focused on bridging daily life gaps in India through purposeful technology. From simplifying local access to essential needs, to enabling new income streams and promoting greener choices—we create tools and platforms that respond to ground realities. Our approach blends innovation with impact, helping individuals and communities move forward together.
+      Evool Foundation is a nonprofit initiative dedicated to turning everyday challenges into meaningful opportunities through technology. We observe closely, listen deeply, and build practical digital solutions that make life easier—whether it's helping someone earn a living, access basic needs, or make eco-friendly choices. Our work is rooted in the everyday lives of Indians across cities, towns, and villages, where small changes can create a big impact.
+      <br /><br />
+      We believe that technology should be simple, inclusive, and built to uplift—not exclude. At Evool, we don’t chase trends—we solve real problems. By staying connected to ground realities, we design tools that respond to what people truly need. Our goal is progress that’s shared by all—where livelihoods grow, communities thrive, and sustainable living becomes a way of life.
       
       </p>
       <button

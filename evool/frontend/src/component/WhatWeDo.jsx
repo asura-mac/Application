@@ -24,7 +24,8 @@ export default function WhatWeDo() {
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-          We create tools that make everyday tasks simpler, smarter, and more accessible for all. 
+          We develop digital tools that reduce everyday stress, save time, and improve access to essentials. From simplifying routine tasks to making services more reachable, our solutions are built for ease, clarity, and usefulness—especially in areas where convenience is still a luxury.
+ 
           </p>
         </article>
 
@@ -40,7 +41,7 @@ export default function WhatWeDo() {
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-          We support income generation by connecting people with scalable, tech-based work possibilities.
+          Our platforms open up new avenues for income by helping people find flexible, tech-enabled ways to earn. Whether it’s supporting self-employment, micro-entrepreneurship, or remote gigs, we aim to build digital bridges between skills and opportunities—accessible to anyone, anywhere.
           </p>
         </article>
 
@@ -56,7 +57,7 @@ export default function WhatWeDo() {
             </h3>
           </header>
           <p className="text-gray-600 flex-grow">
-           We reduce waste and resource strain through digital-first, eco-conscious alternatives.
+           We promote eco-conscious living through digital-first choices that are simple to adopt and kind to the planet. Our work helps reduce unnecessary consumption, promote reuse, and enable mindful habits—supporting individuals and communities in making greener decisions every day.
           </p>
         </article>
       </div>

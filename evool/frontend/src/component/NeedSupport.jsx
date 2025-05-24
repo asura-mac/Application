@@ -41,7 +41,8 @@ export default function NeedSupport() {
               </h3>
             </div>
             <p className="text-gray-600 text-left">
-               Your support helps us reach communities, understand pain points, and design useful tech responses.
+               We believe real change begins with understanding. Your support helps us reach communities, listen closely to their challenges, and design thoughtful tech that responds to real needs. These tools aren’t just digital—they're lifelines built to empower and simplify everyday life with empathy and purpose.
+
             </p>
           </article>
 
@@ -58,7 +59,8 @@ export default function NeedSupport() {
               </h3>
             </div>
             <p className="text-gray-600 text-left">
-              Help us keep our platforms active, accessible, and ever-improving through reliable support.
+              Building a solution is only the beginning. To stay impactful, our platforms must be maintained, improved, and kept accessible. Your continued support keeps them running, updated, and available to more people—so our efforts never stop at launch, but grow stronger over time.
+
             </p>
           </article>
 
@@ -73,7 +75,7 @@ export default function NeedSupport() {
               <h3 className="text-xl font-semibold text-left">Uplift Ground Teams </h3>
             </div>
             <p className="text-gray-600 text-left">
-               Power the people who research, develop, and roll out solutions that genuinely change lives.
+               Behind every solution are teams working hard on research, development, and outreach. Your contributions help us support these changemakers—equipping them to move faster, connect deeper, and extend their reach where it matters most, driving practical, people-first impact.
             </p>
           </article>
         </div>
