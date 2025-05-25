@@ -107,7 +107,7 @@ export default function Footer() {
           <div className="flex justify-center sm:justify-start space-x-4 w-full sm:w-auto mb-4 sm:mb-0">
             {/* Twitter */}
             <a
-              href="https://x.com/EvoolFoundation"
+              href="https://x.com/evoolfoundation?s=21"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -120,7 +120,7 @@ export default function Footer() {
 
             {/* Instagram */}
             <a
-              href="https://www.instagram.com/evoolfoundation/"
+              href="https://www.instagram.com/evoolfoundation?igsh=bG9kZmNmaWg5NmN4"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -133,7 +133,7 @@ export default function Footer() {
 
             {/* Facebook */}
             <a
-              href="https://www.facebook.com/sunbeachresortgorai/"
+              href="https://www.facebook.com/share/1J5Q1EniJW/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
             >

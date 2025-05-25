@@ -6,17 +6,17 @@ export default function Donations() {
   const cards = [
     {
       title: "Accessible Tools for All",
-      desc: `Your support ensures that everyday digital tools and solutions reach people in underserved towns, rural villages, and low-resource communities across India. By breaking down barriers related to access, affordability, and digital literacy, you enable more individuals to benefit from thoughtfully designed solutions that are simple, respectful, and truly inclusive. This helps communities connect, learn, and grow with dignity.`,
+      desc: `Your support ensures digital tools reach people in underserved towns, rural villages, and low-resource communities. By breaking barriers related to access and digital literacy, you enable individuals to benefit from solutions that are simple, respectful, and inclusive. This helps communities connect, learn, and grow with dignity.`,
       img: access,
     },
     {
       title: "Boost to Local Economies",
-      desc: `With your help, we empower micro-entrepreneurs, freelancers, and job-seekers to leverage technology for steady, small-scale income generation. Our platforms open doors to opportunities that don’t require relocation, costly degrees, or heavy investments—only a willingness to learn and grow. Together, we build livelihoods that not only support families but also strengthen resilient, self-sufficient local communities.`,
+      desc: `With your help, we empower micro-entrepreneurs, freelancers, and job-seekers to use technology for income. Our platforms open doors to opportunities that don’t require relocation or heavy investments—just a willingness to learn. Together, we build livelihoods that support families and grow self-sufficient communities.`,
       img: empower,
     },
     {
       title: "Steps Toward a Greener Future",
-      desc: `Every project we develop promotes eco-friendly, low-waste alternatives to common practices that strain our environment. Your contributions allow us to design and expand sustainable systems that reduce environmental impact—from digital, paperless tools to encouraging mindful resource use, recycling, and waste reduction. Together, we make climate-conscious living practical and achievable for everyone.`,
+      desc: `Every project we develop promotes eco-friendly alternatives to practices that harm our environment. Your contributions allow us to build and expand systems that reduce impact—from paperless tools to encouraging mindful resource use and waste reduction. Together, we make climate-conscious living practical for all.`,
       img: sdgs,
     },
   ];
