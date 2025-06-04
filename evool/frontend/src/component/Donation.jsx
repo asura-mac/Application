@@ -35,7 +35,7 @@ export default function Donations() {
           {cards.map((card, idx) => (
             <article
               key={idx}
-              className="bg-white rounded-2xl shadow-lg p-8 max-w-sm w-full text-center flex flex-col justify-between h-[450px] mx-auto"
+              className="bg-white rounded-2xl shadow-lg p-8 max-w-sm w-full text-center flex flex-col justify-between h-auto md:h-[450px] mx-auto"
             >
               <img
               src={card.img}
