@@ -98,9 +98,7 @@ const Login = () => {
                             <div>
                                 <img src="/voolata_long_w_r.png" loading="lazy" alt="" className="w-36 pb-5" />
                                 <p className="max-w-xl mt-3 text-gray-300">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
-                                    autem ipsa, nulla laboriosam dolores, repellendus perferendis libero suscipit nam temporibus
-                                    molestiae
+                                    Voolata is an innovative initiative by Evool Foundation, designed to simplify your life and contribute to environmental sustainability. Our platform allows you to generate QR codes and links for various purposes, reducing the need for paper and promoting eco-friendly practices. With Voolata, managing and sharing information has never been easier.
                                 </p>
                             </div>
                         </div>

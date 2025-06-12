@@ -191,7 +191,7 @@ const HomePage = () => {
                 <p className="sm:w-[70%] w-[90%] text-gray-700 text-center pt-6 sm:text-2xl pb-16">
                     Join Voolata to simplify information sharing through QR codes and cards
                 </p>
-                <div style={{ position: 'relative', width: '80%', maxWidth: '660px', aspectRatio: '16 / 9', borderRadius: '10px', overflow: 'hidden' }}>
+                {/* <div style={{ position: 'relative', width: '80%', maxWidth: '660px', aspectRatio: '16 / 9', borderRadius: '10px', overflow: 'hidden' }}>
                     <iframe
                         src="https://www.youtube.com/embed/ECpin233eTU?si=olkjyltvWiwvKkro"
                         title="YouTube video player"
@@ -200,7 +200,7 @@ const HomePage = () => {
                         allowFullScreen
                         style={{ width: '100%', height: '100%', border: 'none' }}
                     ></iframe>
-                </div>
+                </div> */}
 
             </div>
 
