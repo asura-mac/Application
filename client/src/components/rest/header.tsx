@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { RiMenu3Line, RiMoneyRupeeCircleLine } from "react-icons/ri";
+import { RiMenu3Line } from "react-icons/ri";
 import { IoIosLogOut } from "react-icons/io";
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { RootState } from "../../redux/store";
