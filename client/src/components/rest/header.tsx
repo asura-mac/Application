@@ -59,9 +59,9 @@ export default function Header() {
                     <Link to='/donation' className="text-md font-semibold leading-6">
                         Donate
                     </Link>
-                    <Link to='/plans' className="text-md font-semibold leading-6">
+                    {/* <Link to='/plans' className="text-md font-semibold leading-6">
                         Pricing
-                    </Link>
+                    </Link> */}
                     <Link to='/about-us' className="text-md font-semibold leading-6">
                         About
                     </Link>
@@ -145,7 +145,7 @@ export default function Header() {
                                     </Link>
                                 )}
                                 
-                                {user && (
+                                {/* {user && (
                                     <Link to="/billing" className={`flex items-center p-2 mt-1 rounded-md ${location.pathname === "/billing" ? "text-gray-700 bg-gray-100" : "text-gray-600 transition-colors duration-300 transform hover:bg-gray-100 hover:text-gray-700"}`}>
                                         <img src="/billing_icon.svg" alt="" className='w-5 h-5'/>
                                         <span className="mx-4 font-semibold text-base">Billing</span>
@@ -154,7 +154,7 @@ export default function Header() {
                                 <Link to="/plans" className={`flex items-center p-2 mt-1 rounded-md ${location.pathname === "/plans" ? "text-gray-700 bg-gray-100" : "text-gray-600 transition-colors duration-300 transform hover:bg-gray-100 hover:text-gray-700"}`}>
                                     <RiMoneyRupeeCircleLine className='h-6 w-5' />
                                     <span className="mx-4 font-semibold text-base">Pricing</span>
-                                </Link>
+                                </Link> */}
                                 
                             </nav>
 
