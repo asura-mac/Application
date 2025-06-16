@@ -57,7 +57,7 @@ const Donation = () => {
     return (
         <>
             <Helmet>
-                <title>Voolata | Donation</title>
+                <title>Evool Foundation | Donation</title>
                 <meta name="description" content={`This is the donation page of Voolata`} />
                 <meta name="keywords" content="donation, voolata" />
             </Helmet>

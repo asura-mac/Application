@@ -72,7 +72,7 @@ const DonationBilling = () => {
     return (
         <>
             <Helmet>
-                <title>Voolata | Donation Billing</title>
+                <title>Evool Foundation | Donation Billing</title>
                 <meta name="description" content={`This is the donation billing page of Voolata`} />
                 <meta name="keywords" content="donation billing, voolata" />
             </Helmet>

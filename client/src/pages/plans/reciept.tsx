@@ -39,7 +39,7 @@ const RecieptPage = () => {
     return (!id || !transaction) ? <Loader /> : (
         <>
             <Helmet>
-                <title>Voolata | Recipt {id}</title>
+                <title>Evool Foundation | Recipt {id}</title>
                 <meta name="description" content={`This is the recipt page of Voolata`} />
                 <meta name="keywords" content="recipt, voolata" />
             </Helmet>
@@ -47,7 +47,7 @@ const RecieptPage = () => {
                 <div className="w-full mt-10 md:mt-20 flex flex-col md:flex-row justify-center items-center p-2 gap-4">
                     <div className="w-full md:w-[90%] lg:w-[900px] rounded-xl bg-white flex flex-col printable gap-4">
                         <div className="h-24 bg-teal-100 flex flex-row items-center justify-between p-4 md:p-0">
-                            <h1 className="text-2xl md:text-4xl font-bold text-indigo-600 text-left sm:pl-16">Voolata Pvt Ltd</h1>
+                            <h1 className="text-2xl md:text-4xl font-bold text-indigo-600 text-left sm:pl-16">Evool Foundation</h1>
                             <img src="/voolata_sqaure_r.png" alt="" className="w-12 md:w-14 mt-2 md:mt-0 sm:mr-16" />
                         </div>
                         <div className="flex flex-col gap-5 w-full md:w-[90%] pl-4 mx-auto">
@@ -55,12 +55,12 @@ const RecieptPage = () => {
                                 <h2 className="mt-2 text-xl md:text-2xl font-semibold text-center">{reciept ? "80g Receipt" : "Invoice"}</h2>
                             )} */}
                             <div className="flex flex-col md:flex-row gap-6">
-                                <div className="mt-6 flex flex-col items-start">
+                                {/* <div className="mt-6 flex flex-col items-start">
                                     <h2 className="text-lg md:text-xl font-semibold">Premium Delux Plan</h2>
                                     <p className="text-sm">description of this delux plan which is good</p>
                                     <p className="text-sm">Amount: ₹ 101</p>
                                     <p className="text-sm">Next due on 3 Oct 2024</p>
-                                </div>
+                                </div> */}
                                 <div className="flex flex-col pt-5">
                                     <h1 className="text-xl md:text-2xl font-semibold underline">Transaction Details</h1>
                                     <div className="mt-4">
@@ -98,7 +98,7 @@ const RecieptPage = () => {
                                 </div>
                             </div>
                             <div className="flex flex-col md:flex-row gap-10">
-                                <div className="mt-6">
+                                {/* <div className="mt-6">
                                     <h2 className="text-lg md:text-xl font-semibold">Payment Details</h2>
                                     <p className="text-sm">Payment ID: OsP9778XimvThh</p>
                                     <p className="text-sm">Paid on 3 Sep 2024 00:26:43</p>
@@ -106,14 +106,14 @@ const RecieptPage = () => {
                                 <div className="mt-6">
                                     <h2 className="text-lg md:text-xl font-semibold">Bill Date</h2>
                                     <p className="text-sm">3 Sep 2024</p>
-                                </div>
+                                </div> */}
                                 <div className="mt-6">
                                     <h2 className="text-lg md:text-xl font-semibold">Payment Method</h2>
                                     <p className="text-sm">UPI *********azorpay</p>
                                 </div>
                             </div>
                             <div className="mt-6 px-4">
-                                <p className="text-sm">You may contact Shivaji for any query related to this subscription with the subscription ID as sub_OsPKqVufRVCZJj</p>
+                                <p className="text-sm">You may contact contactus@evoolfoundation.org for any queries</p>
                             </div>
                         </div>
                         <button className="my-8 not px-4 py-2 bg-indigo-500 text-white rounded-full cursor-pointer hover:bg-indigo-400 self-center" onClick={() => window.print()}>Print</button>

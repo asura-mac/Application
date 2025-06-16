@@ -143,7 +143,7 @@ const DonationCheckout = () => {
                 options = {
                     key: subData.data.key,
                     currency: "INR",
-                    name: "VCards App",
+                    name: "Evool Foundation",
                     description: "just fine",
                     subscription_id: subData.data.subscriptions_id,
                     handler: async function (response: any) {
@@ -189,7 +189,7 @@ const DonationCheckout = () => {
                     key: donationData.data.key,
                     currency: donationData.data.order.currency,
                     amount: donationData.data.order.amount,
-                    name: "VCards App",
+                    name: "Evool Foundation",
                     description: "just fine",
                     order_id: donationData.data.order.id,
                     handler: async function (response: any) {
@@ -240,7 +240,7 @@ const DonationCheckout = () => {
     return (
         <>
             <Helmet>
-                <title>Voolata | Donation Checkout</title>
+                <title>Evool Foundation | Donation Checkout</title>
                 <meta name="description" content={`This is the donation checkout page of Voolata`} />
                 <meta name="keywords" content="donation, checkout, voolata" />
             </Helmet>

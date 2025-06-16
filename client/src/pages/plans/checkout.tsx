@@ -154,7 +154,7 @@ const Checkout = () => {
             const options = {
                 key: data.key,
                 currency: "INR",
-                name: "VCards App",
+                name: "Evool Foundation",
                 description: "just fine",
                 subscription_id: data.subscriptions_id,
                 handler: async function (response: any) {
