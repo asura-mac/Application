@@ -8,8 +8,6 @@ const Backdrop = () => {
             <p className="h-16 text-[6px] text-white">
                 105, P-17, Omkar CHS Ltd, Noopur Nagar Mataji Mandir, Mira Road, Thane, Thane- 401107
                 <br />
-                +91 91368 95794
-                <br />
                 contactus@evoolfoundation.org
             </p>
         </div>

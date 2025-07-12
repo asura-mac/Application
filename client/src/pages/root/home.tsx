@@ -87,8 +87,9 @@ const HomePage = () => {
         <>
             <Helmet>
                 <title>Voolata | {location.pathname === "/about-us" ? "About Us" : "Home"}</title>
+                <meta name="title" content="Voolata - Smart QR Code ID Cards for Animals, Medical, Plants & More"/>
                 <meta name="description" content={`This is the ${location.pathname === "/about-us" ? "about" : "home"} page of Voolata`} />
-                <meta name="keywords" content="home, voolata" />
+                <meta name="keywords" content="QR code ID cards, animal ID card, medical QR card, plant care ID, social creator QR, personal QR profile, custom QR ID, digital QR identity, Voolata" />
             </Helmet>
 
             <div className="bg-[url(/bg_placeholder.png)] bg-cover bg-center lg:h-[800px] h-[560px] max-sm:pt-24 flex justify-center items-center ">
