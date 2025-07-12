@@ -5,7 +5,7 @@ import { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { donatorExist } from "@/redux/reducer/donatorReducer";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import { Loader2 } from "lucide-react";
 import { GPaySvg, MasterCardSvg, PaytmSvg, RazorPaySvg, RupaySvg, UpiSvg, VisaSvg } from "@/constants/icons/checkout";
 import API from "@/config/apiConfig";
@@ -239,11 +239,11 @@ const DonationCheckout = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Evool Foundation | Donation Checkout</title>
                 <meta name="description" content={`This is the donation checkout page of Voolata`} />
                 <meta name="keywords" content="donation, checkout, voolata" />
-            </Helmet>
+            </Helmet> */}
             <div className="w-[80%] mx-auto mt-6 mb-12">
                 <div className="flex justify-center items-center gap-4">
                     {checkoutLoading && (

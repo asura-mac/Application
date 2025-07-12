@@ -7,7 +7,7 @@ import axios from "axios";
 // import { Plan } from "@/types/plan_types";
 // import { SinglePlanResponse } from "@/types/api-types";
 import { periodEnum } from "./plan";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import { IPlan } from "@/types/type";
 
 const ViewCustom = () => {
@@ -47,11 +47,11 @@ const ViewCustom = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Voolata | Custom Plan</title>
                 <meta name="description" content={`This is the custom plan page of Voolata`} />
                 <meta name="keywords" content="custom plan, voolata" />
-            </Helmet>
+            </Helmet> */}
             <div className="min-h-screen bg-gradient-to-br from-[#efe8fa] to-[#fcfafd] flex flex-col justify-center items-center py-6">
                 <div className="text-center">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold">

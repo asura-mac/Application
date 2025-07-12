@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Loader2 } from "lucide-react";
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -51,11 +51,11 @@ const RequestCustom = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Voolata | Custom Plan</title>
                 <meta name="description" content={`This is the custom plan page of Voolata`} />
                 <meta name="keywords" content="custom plan, voolata" />
-            </Helmet>
+            </Helmet> */}
             <section className="min-h-screen bg-gradient-to-br from-[#efe8fa] to-[#fcfafd]">
                 <div className="flex flex-col min-h-screen max-w-6xl mx-auto px-4 py-6 lg:py-24">
                     <div className="flex-1 lg:flex mt-4 gap-12">

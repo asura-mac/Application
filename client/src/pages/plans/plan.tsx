@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { togglePaid, userExist } from "@/redux/reducer/userReducer";
 import Loader from "@/components/rest/loader";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import { IPlan, PlanEnum } from "@/types/type";
 
 export const periodEnum = {
@@ -81,11 +81,11 @@ const PlanPage = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Voolata | Pricing</title>
                 <meta name="description" content={`This is the pricing page of Voolata`} />
                 <meta name="keywords" content="pricing, voolata" />
-            </Helmet>
+            </Helmet> */}
             <div className="min-h-screen bg-gradient-to-br from-[#efe8fa] to-[#fcfafd] flex flex-col justify-center items-center py-8 pt-28">
             {/* <div className="min-h-screen bg-gradient-to-br from-[#efe8fa] to-[#fcfafd] flex flex-col justify-center items-center py-6"> */}
                 <div className="text-center">

@@ -44,12 +44,47 @@ const Footer = () => {
                     <h1>© 2025 Voolata. All rights reserved.</h1>
                 </div>
                 <div className="flex gap-6 items-center lg:pr-24 ">
-                    <img src="/x_icon.svg" alt="" />
-                    <img src="/ig_icon.svg" alt="" />
-                    <img src="/meta_icon.svg" alt="" />
+                    <a 
+        href="https://x.com/evoolfoundation?s=21" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="group relative transition-transform hover:scale-110"
+        aria-label="Follow us on X (Twitter)"
+    >
+        <img src="/x_icon.svg" alt="X (Twitter)" className="w-6 h-6" />
+        <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap">
+            Follow us on X
+        </span>
+    </a>
+    
+    <a 
+        href="https://www.instagram.com/evoolfoundation?igsh=bG9kZmNmaWg5NmN4" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="group relative transition-transform hover:scale-110"
+        aria-label="Follow us on Instagram"
+    >
+        <img src="/ig_icon.svg" alt="Instagram" className="w-6 h-6" />
+        <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap">
+            Follow us on Instagram
+        </span>
+    </a>
+    
+    <a 
+        href="https://www.facebook.com/share/1J5Q1EniJW/?mibextid=wwXIfr" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="group relative transition-transform hover:scale-110"
+        aria-label="Follow us on Facebook"
+    >
+        <img src="/meta_icon.svg" alt="Facebook" className="w-6 h-6" />
+        <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap">
+            Follow us on Facebook
+        </span>
+    </a>
                 </div>
                 <div className="lg:hidden">
-                    <h1>© 2025 Voolata. All rights reserved.</h1>
+                    <h1>© {new Date().getFullYear()} Voolata. All rights reserved.</h1>
                 </div>
             </div>
         </>

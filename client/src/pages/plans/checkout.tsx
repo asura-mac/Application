@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 // import { Plan } from "@/types/plan_types";
 // import { SinglePlanResponse, UserResponse } from "@/types/api-types";
 import { togglePaid, userExist } from "@/redux/reducer/userReducer";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import { Loader2 } from "lucide-react";
 import { IPlan } from "@/types/type";
 import { GPaySvg, MasterCardSvg, PaytmSvg, RazorPaySvg, RupaySvg, UpiSvg, VisaSvg } from "@/constants/icons/checkout";
@@ -206,11 +206,11 @@ const Checkout = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Voolata | Checkout</title>
                 <meta name="description" content={`This is the checkout page of Voolata`} />
                 <meta name="keywords" content="checkout, voolata" />
-            </Helmet>
+            </Helmet> */}
             <div className="w-[95%] md:w-[80%] mx-auto mt-8 mb-12">
                 <div className="flex justify-center items-center gap-4">
                     {checkoutLoading && (

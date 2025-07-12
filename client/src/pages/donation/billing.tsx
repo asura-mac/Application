@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import { HiMiniArrowSmallLeft } from "react-icons/hi2";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import { ISubscription, ITransaction } from "@/types/type";
 
 export type AllTransactionsResponse = {
@@ -71,11 +71,11 @@ const DonationBilling = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Evool Foundation | Donation Billing</title>
                 <meta name="description" content={`This is the donation billing page of Voolata`} />
                 <meta name="keywords" content="donation billing, voolata" />
-            </Helmet>
+            </Helmet> */}
             <div className="dark:bg-gray-900">
                 <div className="container px-6 py-8 mx-auto">
                     <div className="mt-6 space-y-8 xl:mt-12">

@@ -6,7 +6,7 @@ import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import { HiMiniArrowSmallLeft } from "react-icons/hi2";
 import { RootState } from "@/redux/store";
 import { useSelector } from "react-redux";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import { ISubscription, ITransaction } from "@/types/type";
 
 export type AllTransactionsResponse = {
@@ -76,11 +76,11 @@ const BillingPage = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Voolata | Billing</title>
                 <meta name="description" content={`This is the billing page of Voolata`} />
                 <meta name="keywords" content="billing, voolata" />
-            </Helmet>
+            </Helmet> */}
             <div className="dark:bg-gray-900">
                 <div className="container px-6 py-8 mx-auto">
                     <div className="mt-6 space-y-8 xl:mt-12">
