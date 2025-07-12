@@ -1,0 +1,9 @@
+export { default as CreatorViewCardBackgroundMobile } from "@/assets/cards/view-card/creator_mobile.png";
+export { default as MedicalViewCardBackgroundMobile } from "@/assets/cards/view-card/medical_mobile.png";
+export { default as IndividualViewCardBackgroundMobile } from "@/assets/cards/view-card/individual_mobile.png";
+export { default as BotanicalViewCardBackgroundMobile } from "@/assets/cards/view-card/botanical_mobile.png";
+export { default as AnimalViewCardBackgroundMobile } from "@/assets/cards/view-card/animal_mobile.png";
+export { default as CreatorViewCardBackgroundDesktop } from "@/assets/cards/view-card/creator_desktop.png";
+export { default as IndividualViewCardBackgroundDesktop } from "@/assets/cards/view-card/individual_desktop.png";
+export { default as BotanicalViewCardBackgroundDesktop } from "@/assets/cards/view-card/botanical_desktop.png";
+export { default as AnimalViewCardBackgroundDesktop } from "@/assets/cards/view-card/animal_desktop.png";

@@ -24,7 +24,7 @@ const HomePage = () => {
             cardTitle: "Individual QR",
             color: "bg-[#6371FB]",
             titleColor: "text-[#6371FB]",
-            cardPara: "Create and share personal details, contact info, or social links.",
+            cardPara: "Share your digital identity with name, contact, resume, and social handles all in one scannable QR",
             icons: "/individual_icon.svg"
         },
         {
@@ -34,7 +34,7 @@ const HomePage = () => {
             cardTitle: "Medical QR",
             color: "bg-[#68A78B]",
             titleColor: "text-[#68A78B]",
-            cardPara: "Store health records, allergies, blood group, and emergency contacts.",
+            cardPara: "Securely store allergies, prescriptions, blood group, and emergency contacts in a digital medical QR",
             icons: "/medical_icon.svg"
         },
         {
@@ -44,7 +44,7 @@ const HomePage = () => {
             cardTitle: "Creator QR",
             color: "bg-[#3E5CC5]",
             titleColor: "text-[#3E5CC5]",
-            cardPara: "Showcase social media, portfolio, and personal brand in one scan.",
+            cardPara: "Showcase your personal brand with a creator QR, connect your social media, content, and portfolio instantly.",
             icons: "/creator_icon.svg"
         },
         {
@@ -54,7 +54,7 @@ const HomePage = () => {
             cardTitle: "Botany QR",
             color: "bg-[#3F9E93]",
             titleColor: "text-[#3F9E93]",
-            cardPara: "Save plant data, research, and educational insights for easy access.",
+            cardPara: "Generate plant care QR cards with watering schedules, species info, and growth guides.",
             icons: "/botany_icon.svg"
         },
         {
@@ -64,7 +64,7 @@ const HomePage = () => {
             cardTitle: "Animal QR",
             color: "bg-[#AC1400]",
             titleColor: "text-[#AC1400]",
-            cardPara: "Store pet details, medical history, and owner contact information.",
+            cardPara: " Create smart QR cards for pets with vet records, vaccination dates, and owner details.",
             icons: "/animal_icon.svg"
         }
     ]
@@ -97,7 +97,7 @@ const HomePage = () => {
                     <div className="flex-col justify-center items-center">
                         <h1 className="text-white font-semibold lg:text-9xl sm:text-7xl text-6xl">Where <span className=" bg-clip-text text-transparent bg-gradient-to-br from-[#1858F0] via-[#6571FB] to-[#4D63F4] ">Work</span> <br /> Happens</h1>
                         <h3 className="font-semibold text-lg w-[80%] sm:text-xl text-white pt-7">
-                            Welcome to Voolata, your go-to platform for creating <br /> versatile QR codes and links.
+                            Welcome to Voolata — your all-in-one platform to create smart, <br /> , custom QR codes for every purpose.
                         </h3>
                         <button onClick={() => navigate("/dashboard")} className="bg-gradient-to-br from-[#1858F0] via-[#6571FB] to-[#4D63F4] text-white flex justify-center items-center w-36 text-lg font-semibold rounded-2xl mt-6 h-14">
                             Create now
@@ -151,7 +151,7 @@ const HomePage = () => {
                     <img src="/how_icon.svg" alt="" />
                 </div>
                 <div className="flex-col flex items-center pt-8  ">
-                    <h1 className="text-5xl font-semibold text-center flex-wrap w-[80%] hidden sm:flex">Create, Customize, and Share Your QR Codes & Cards Effortlessly!</h1>
+                    <h1 className="text-5xl font-semibold text-center flex-wrap w-[80%] hidden sm:flex">Create, customize, and download editable QR codes in minutes!</h1>
                     <h1 className="text-4xl  font-semibold text-center  md:hidden">Simplifying Your Journey with Us</h1>
                     <p className="sm:text-xl w-[90%] text-base text-center pt-6 flex flex-wrap  md:w-[41%]">Discover how easy it is to create custom QR codes and QR cards with Voolata! Follow these quick steps and get started in no time.</p>
                 </div>
@@ -166,10 +166,10 @@ const HomePage = () => {
                             <h1 className="sm:text-2xl text-xs font-semibold">Download</h1>
                         </div>
                         <div className="flex flex-col justify-between">
-                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Select a category and fill the form.</p>
-                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Submit the form to generate a QR code.</p>
-                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Edit details anytime without changing the QR.</p>
-                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Download and share your QR code easily.</p>
+                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Choose your QR type: Personal, Medical, Animal, Plant, or Creator.</p>
+                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Enter your details using our easy form.</p>
+                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Edit anytime, your QR stays live and updated.</p>
+                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Save and share your QR digitally or in print.</p>
                         </div>
                     </div>
                 </div>
@@ -188,9 +188,9 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="bg-[#E4EEFF] pb-28 pt-16 flex flex-col items-center">
-                <h1 className="text-4xl sm:text-3xl text-center font-bold">GET STARTED WITH VOOLATA TODAY</h1>
+                <h1 className="text-4xl sm:text-3xl text-center font-bold">GET STARTED WITH VOOLATA</h1>
                 <p className="sm:w-[70%] w-[90%] text-gray-700 text-center pt-6 sm:text-2xl pb-16">
-                    Join Voolata to simplify information sharing through QR codes and cards
+                    Simplify how you share medical, personal, plant, and pet details using smart QR cards.
                 </p>
                 {/* <div style={{ position: 'relative', width: '80%', maxWidth: '660px', aspectRatio: '16 / 9', borderRadius: '10px', overflow: 'hidden' }}>
                     <iframe

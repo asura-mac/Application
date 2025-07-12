@@ -14,7 +14,7 @@ import {
     IndividualViewCardBackgroundDesktop,
     IndividualViewCardBackgroundMobile,
     MedicalViewCardBackgroundMobile
-} from "@/constants/cards/view-card";
+} from "@/constants/cards/view-cards";
 import { useMediaQuery } from "react-responsive";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { AnimalData, BotanyData, CreatorData, ICard, IndividualData, MedicalData } from "@/types/type";
@@ -22,6 +22,7 @@ import { useEffect, useState } from "react";
 import API from "@/config/apiConfig";
 import { toast } from "react-toastify";
 import Loader from "@/components/rest/loader";
+import { Link } from 'react-router-dom'
 // import { AnimalCardIcon, BotanicalCardIcon, CreatorCardIcon, IndividualCardIcon, MedicalCardIcon } from "@/constants/cards/icons";
 
 interface SingleCardResponse {
@@ -146,7 +147,10 @@ const ViewCard = () => {
                             </div>
                             <div className="mt-12 flex flex-col justify-center items-center pb-12">
                                 <p className="pb-3 text-xl font-semibold text-[#292929]">Made with</p>
-                                <img src="/voolata_long_r.png" alt="" className="w-36" />
+                                <Link to='/'>
+                                    <img src="/voolata_long_r.png" alt="" className="w-36" />
+                                </Link>
+                                
                             </div>
                         </div>
                     </div>

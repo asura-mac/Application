@@ -31,7 +31,7 @@ const AnimalViewCard = ({ cardData }: PropTypes) => {
                 {data.map(dat => (
                     <div key={dat.label} className='flex flex-wrap items-center gap-2'>
                         <p className='text-md text-[#454545] font-bold whitespace-nowrap'>{dat.label} :</p>
-                        <p className='text-md text-[#2E2E2E] whitespace-nowrap'>{dat.value ? dat.value : "----------"}</p>
+                        <p className='text-md text-[#2E2E2E] break-words'>{dat.value ? dat.value : "----------"}</p>
                     </div>
                 ))}
             </div>
