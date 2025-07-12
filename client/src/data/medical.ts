@@ -22,7 +22,7 @@ export const medAdd = [
 export const medDetails = [
     { name: "height", label: "Height", text: "Enter Height (in meters)", type: "number" },
     { name: "weight", label: "Weight", text: "Enter Weight (in kgs)", type: "number" },
-    { name: "age", label: "Age", text: "Enter State/Province", type: "number" },
+    { name: "age", label: "Age", text: "Enter Your Age", type: "number" },
 ];
 
 export const medDetailBlood = [
