@@ -30,13 +30,19 @@ const RecieptPage = () => {
         fetchTransaction();
     }, [id, type]);
 
-    const formatDate = (date: string | Date) => {
+    const formatDate = (date: string | Date | null | undefined) => {
         if (!date) return 'N/A';
-        return new Date(date).toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
+        try {
+            const dateObj = new Date(date);
+            if (isNaN(dateObj.getTime())) return 'Invalid Date';
+            return dateObj.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }   catch (error) {
+                return 'Invalid Date';
+        }
     };
 
     return (!id || !transaction) ? <Loader /> : (
@@ -82,7 +88,12 @@ const RecieptPage = () => {
                                         <div className="flex justify-between">
                                             <span className="text-gray-600 font-medium">Period:</span>
                                             <span className="text-gray-800">
-                                                {formatDate(transaction?.start)} - {formatDate(transaction?.end)}
+                                                {transaction?.createdAt 
+                                                    ? formatDate(transaction.createdAt)
+                                                    : transaction?.start 
+                                                        ? formatDate(transaction.start)
+                                                        : 'N/A'
+                                                }
                                             </span>
                                         </div>
                                         <div className="flex justify-between">
@@ -102,7 +113,11 @@ const RecieptPage = () => {
                                         <div className="flex justify-between">
                                             <span className="text-gray-600 font-medium">Date:</span>
                                             <span className="text-gray-800">
-                                                {formatDate(transaction?.start)}
+                                                {transaction?.createdAt ? formatDate(transaction.createdAt)
+                                                : transaction?.start 
+                                                    ? formatDate(transaction.start)
+                                                    : 'N/A'
+                                                }
                                             </span>
                                         </div>
                                     </div>
