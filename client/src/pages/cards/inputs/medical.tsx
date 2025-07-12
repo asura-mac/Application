@@ -141,6 +141,22 @@ const MedicalInput = () => {
                                 register={register}
                             />
                         ))}
+
+                        {medDetailBlood.map((sele, index) => {
+                            const selectedValue = watch(sele.name);
+                            return (
+                                <SelectInput
+                                    key={index}
+                                    name={sele.name}
+                                    text={sele.text}
+                                    label={sele.label}
+                                    options={sele.options}
+                                    selectedValue={selectedValue}
+                                    setValue={setValue}
+                                    register={register}
+                                />
+                            )
+                        })}
                     </div>
                 )
             case 2:
@@ -204,22 +220,6 @@ const MedicalInput = () => {
                                 register={register}
                             />
                         ))}
-
-                        {medDetailBlood.map((sele, index) => {
-                            const selectedValue = watch(sele.name);
-                            return (
-                                <SelectInput
-                                    key={index}
-                                    name={sele.name}
-                                    text={sele.text}
-                                    label={sele.label}
-                                    options={sele.options}
-                                    selectedValue={selectedValue}
-                                    setValue={setValue}
-                                    register={register}
-                                />
-                            )
-                        })}
 
                         <h1 className="pt-4 text-2xl font-semibold">Health Habits</h1>
                         {healthhabits?.map((sele, index) => {

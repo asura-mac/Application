@@ -130,15 +130,15 @@ const MedicalDesktopViewCard = ({ cardData }: PropTypes) => {
                                 {data.profile.map((dat, index) => (
                                     <div key={index} className='flex flex-wrap items-center gap-2'>
                                         <p className='text-md text-[#454545] font-semibold whitespace-nowrap'>{dat.label} :</p>
-                                        <p className='text-md text-[#2E2E2E] whitespace-nowrap'>{dat.value ? dat.value : "----------"}</p>
+                                        <p className='text-md text-[#2E2E2E] break-words'>{dat.value ? dat.value : "----------"}</p>
                                     </div>
                                 ))}
                                 <div className="mt-1">
                                     <h2 className="text-[#2E2E2E] text-md font-semibold">Address :</h2>
-                                    <div>
-                                        <p className="text-[#555555] text-md">{data.address.line1} lorem10</p>
-                                        <p className="text-[#4C4C4C] text-md">State - {data.address.state}</p>
-                                        <p className="text-[#4C4C4C] text-md">Postal -{data.address.postal_code}</p>
+                                    <div className="pr-2">
+                                        <p className="text-[#555555] text-md break-words overflow-hidden">{data.address.line1}</p>
+                                        <p className="text-[#4C4C4C] text-md break-words">State - {data.address.state}</p>
+                                        <p className="text-[#4C4C4C] text-md break-words">Postal -{data.address.postal_code}</p>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@ const MedicalDesktopViewCard = ({ cardData }: PropTypes) => {
                         {data.usual.map((data, index) => (
                             <div key={index} className="mt-4">
                                 <h2 className="text-[#2E2E2E] text-xl font-semibold">{data.name}</h2>
-                                <p className="text-[#555555]">{data.value}</p>
+                                <p className="text-[#555555] break-words">{data.value}</p>
                             </div>
                         ))}
                         <div className="mt-8">
@@ -201,7 +201,7 @@ const MedicalDesktopViewCard = ({ cardData }: PropTypes) => {
                                 <h2 className="text-[20px] font-bold">{dat.name}</h2>
                                 <div className="flex flex-wrap gap-3 mt-2">
                                     {dat.data.map((dax, i) => (
-                                        <div key={i} className="rounded-[5.44px] p-2 w-fit bg-[#E0EBFB] text-[#3567B0]">
+                                        <div key={i} className="rounded-[5.44px] p-2 w-fit bg-[#E0EBFB] text-[#3567B0] break-words">
                                             {dax}
                                         </div>
                                     ))}
