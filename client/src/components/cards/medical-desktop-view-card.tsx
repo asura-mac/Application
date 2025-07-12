@@ -1,6 +1,6 @@
 import { MedicalData } from '@/types/type';
 import profilecard from '../../assets/extra/profile-card.svg';
-import { MedicalCardIcon } from '@/constants/cards/icons';
+// import { MedicalCardIcon } from '@/constants/cards/icons';
 import { useState } from 'react';
 import { ArrowDown, ArrowRight } from 'lucide-react';
 
@@ -122,7 +122,7 @@ const MedicalDesktopViewCard = ({ cardData }: PropTypes) => {
                             <img src={profilecard} alt="Profile Card" className='w-full h-full' />
 
                             <div className="absolute top-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
-                                <img src={MedicalCardIcon} alt="Profile Icon" className="w-24 h-24 rounded-full" />
+                                {/* <img src={MedicalCardIcon} alt="Profile Icon" className="w-24 h-24 rounded-full" /> */}
                                 <div className="mt-2 font-semibold text-lg">{cardData.name}</div>
                             </div>
 
