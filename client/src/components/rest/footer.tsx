@@ -17,7 +17,6 @@ const Footer = () => {
                         <ul className="list-none flex flex-col gap-1">
                             <Link to="/about-us">About us</Link>
                             <Link to="/donation">Donation</Link>
-                            <Link to="/plans">Pricing</Link>
                         </ul>
                     </div>
                     <div className="flex flex-col gap-3 w-36 max-lg:text-center">
@@ -31,7 +30,6 @@ const Footer = () => {
                     <div className="flex flex-col  gap-3 max-lg:text-center">
                         <h1 className="font-semibold text-2xl">Contact</h1>
                         <ul className="list-none w-80 flex flex-col gap-1">
-                            <li>+91 91368 95794</li>
                             <li>contactus@evoolfoundation.org</li>
                             <li>105, P-17, Omkar CHS Ltd, Noopur Nagar Mataji Mandir, Mira Road, Thane, Thane- 401107</li>
                         </ul>
@@ -41,7 +39,7 @@ const Footer = () => {
             </div>
             <div className="h-28 lg:bg-[#FAFAFA] flex flex-col lg:flex-row items-center lg:justify-between gap-5">
                 <div className="pl-24 lg:flex hidden">
-                    <h1>© 2025 Voolata. All rights reserved.</h1>
+                    <h1>© {new Date().getFullYear()} Voolata. All rights reserved.</h1>
                 </div>
                 <div className="flex gap-6 items-center lg:pr-24 ">
                     <a 

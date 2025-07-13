@@ -97,7 +97,7 @@ const HomePage = () => {
                     <div className="flex-col justify-center items-center">
                         <h1 className="text-white font-semibold lg:text-9xl sm:text-7xl text-6xl">Where <span className=" bg-clip-text text-transparent bg-gradient-to-br from-[#1858F0] via-[#6571FB] to-[#4D63F4] ">Work</span> <br /> Happens</h1>
                         <h3 className="font-semibold text-lg w-[80%] sm:text-xl text-white pt-7">
-                            Welcome to Voolata — your all-in-one platform to create smart, <br /> , custom QR codes for every purpose.
+                            Welcome to Voolata — your all in one platform to create smart, custom QR codes for every purpose.
                         </h3>
                         <button onClick={() => navigate("/dashboard")} className="bg-gradient-to-br from-[#1858F0] via-[#6571FB] to-[#4D63F4] text-white flex justify-center items-center w-36 text-lg font-semibold rounded-2xl mt-6 h-14">
                             Create now
