@@ -128,12 +128,12 @@ const HomePage = () => {
                         {cardData.map((item, index) => {
 
                             return (
-                                <button onClick={() => handleClick(item, index)} key={item.id} className={`w-1/2 h-48  sm:w-64 sm:h-64 rounded-2xl outline-none border-transparent border-[1px] hover:border-[1px] hover:sm:border-black  
+                                <button onClick={() => handleClick(item, index)} key={item.id} className={`w-1/2 min-h-48  sm:w-64 sm:min-h-64 h-auto rounded-2xl outline-none border-transparent border-[1px] hover:border-[1px] hover:sm:border-black  
                                     ${selectedIndex === index ? `${cardColor}` : ''}`}>
                                     <div className=" h-full items-start flex flex-col p-5 sm:p-7 ">
-                                        <img src={item.icons} alt="" className="sm:w-12 w-10" />
-                                        <h2 className={`${selectedIndex === index ? 'text-white' : 'text-black'} pt-2 sm:text-2xl font-semibold text-xl`}>{item.cardTitle}</h2>
-                                        <p className={`${selectedIndex === index ? 'text-white' : 'text-black'}  leading-relaxed pt-3 text-start text-xs sm:text-base h-[80%]`}>{item.cardPara}</p>
+                                        <img src={item.icons} alt="" className="sm:w-12 w-10 flex-shrink-0" />
+                                        <h2 className={`${selectedIndex === index ? 'text-white' : 'text-black'} pt-2 sm:text-2xl font-semibold text-xl flex-shrink-0`}>{item.cardTitle}</h2>
+                                        <p className={`${selectedIndex === index ? 'text-white' : 'text-black'}  leading-relaxed pt-3 text-start text-xs sm:text-base flex-grow`}>{item.cardPara}</p>
                                     </div>
                                 </button>
                             )
@@ -166,7 +166,7 @@ const HomePage = () => {
                             <h1 className="sm:text-2xl text-xs font-semibold">Download</h1>
                         </div>
                         <div className="flex flex-col justify-between">
-                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Choose your QR type: Personal, Medical, Animal, Plant, or Creator.</p>
+                            <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Select a category to fill the form.</p>
                             <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Enter your details using our easy form.</p>
                             <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Edit anytime, your QR stays live and updated.</p>
                             <p className="sm:text-xl text-[10px] h-6 max-sm:w-36 text-wrap font-medium">Save and share your QR digitally or in print.</p>
