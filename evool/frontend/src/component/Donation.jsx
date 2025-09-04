@@ -16,7 +16,7 @@ export default function Donations() {
     },
     {
       title: "Steps Toward a Greener Future",
-      desc: `Every project we develop promotes eco-friendly alternatives to practices that harm our environment. Your contributions allow us to build and expand systems that reduce impact—from paperless tools to encouraging mindful resource use and waste reduction. Together, we make climate-conscious living practical for all.`,
+      desc: `Every project we develop promotes eco-friendly alternatives to practices that harm our environment. Your contributions allow us to build and expand systems that reduce impact—from paperless tools to encouraging mindful resource use and waste reduction. Together, we make climate-conscious living practical for all.`,
       img: sdgs,
     },
   ];
@@ -59,9 +59,9 @@ export default function Donations() {
         Become part of the movement. Be part of the{" "}
           <span className="text-[#008cff]">CHANGE!</span>
         </h2>
-        {/* <button  onClick={() => window.open('https://voolata.com/donation/dashboard', '_blank')} className="bg-[#008cff] text-white text-lg font-semibold px-10 py-3 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 cursor-pointer">
+        <button  onClick={() => window.open('https://voolata.com/donation', '_blank')} className="bg-[#008cff] text-white text-lg font-semibold px-10 py-3 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 cursor-pointer">
           Donate
-        </button> */}
+        </button>
       </section>
     </main>
   );

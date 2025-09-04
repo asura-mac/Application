@@ -1,15 +1,15 @@
 import axios from "axios";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 // import { Plan } from "@/types/plan_types";
 // import { PlanResponse, UserResponse } from "@/types/api-types";
 import { toast } from "react-toastify";
-import { togglePaid, userExist } from "@/redux/reducer/userReducer";
+// import { togglePaid, userExist } from "@/redux/reducer/userReducer";
 import Loader from "@/components/rest/loader";
 import { Helmet } from "react-helmet-async";
-import { IPlan, PlanEnum } from "@/types/type";
+import { IPlan} from "@/types/type";
 
 export const periodEnum = {
     DAILY: "daily",
@@ -20,23 +20,23 @@ export const periodEnum = {
 
 const PlanPage = () => {
 
-    const navigate = useNavigate();
-    const dispatch = useDispatch();
+    // const navigate = useNavigate();
+    // const dispatch = useDispatch();
     const [plans, setPlans] = useState<IPlan[] | null>();
-    const { user, isPaid, loading } = useSelector((state: RootState) => state.userReducer);
+    const { user, loading } = useSelector((state: RootState) => state.userReducer);
 
-    const periodToDays = (period: string) => {
-        switch (period) {
-            case periodEnum.DAILY:
-                return "day";
-            case periodEnum.WEEKLY:
-                return "week";
-            case periodEnum.MONTHLY:
-                return "month";
-            case periodEnum.YEARLY:
-                return "year";
-        }
-    }
+    // const periodToDays = (period: string) => {
+    //     switch (period) {
+    //         case periodEnum.DAILY:
+    //             return "day";
+    //         case periodEnum.WEEKLY:
+    //             return "week";
+    //         case periodEnum.MONTHLY:
+    //             return "month";
+    //         case periodEnum.YEARLY:
+    //             return "year";
+    //     }
+    // }
 
     const fetchPlans = async () => {
         try {
@@ -66,16 +66,16 @@ const PlanPage = () => {
         }
     }, []);
 
-    const handleFreePlan = async (id: string) => {
-        try {
-            const { data }: { data: any } = await axios.post(`${import.meta.env.VITE_BASE_URL}/sub/new/free/${id}`, { data: "null" }, { withCredentials: true });
-            dispatch(userExist(data.user));
-            dispatch(togglePaid(true));
-            toast.success("Free plan activated successfully");
-        } catch (error: any) {
-            toast.error(error.response.data.message);
-        }
-    }
+    // const handleFreePlan = async (id: string) => {
+    //     try {
+    //         const { data }: { data: any } = await axios.post(`${import.meta.env.VITE_BASE_URL}/sub/new/free/${id}`, { data: "null" }, { withCredentials: true });
+    //         dispatch(userExist(data.user));
+    //         dispatch(togglePaid(true));
+    //         toast.success("Free plan activated successfully");
+    //     } catch (error: any) {
+    //         toast.error(error.response.data.message);
+    //     }
+    // }
 
     if (loading) return <Loader />
 
@@ -93,11 +93,11 @@ const PlanPage = () => {
             {/* <div className="min-h-screen bg-gradient-to-br from-[#efe8fa] to-[#fcfafd] flex flex-col justify-center items-center py-6"> */}
                 <div className="text-center">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold">
-                        Choose your right plan!
+                        It is completely Free!
                     </h1>
                     <h2 className="pt-5 px-6 text-base md:text-lg lg:text-xl text-gray-600">
-                        Select from best plans, ensuring a perfect match. Need more or less? <br className="hidden md:block" />
-                        Customize your subscription for a seamless fit!
+                        On our Platform upto 10 cards generation is completely Free however if you want to generate more cards<br className="hidden md:block" />
+                        Contact us at contactus@evoolfoundation.org 
                     </h2>
                 </div>
                 <div className="flex flex-wrap justify-center gap-6 mt-10 px-4 sm:px-6">
@@ -111,20 +111,20 @@ const PlanPage = () => {
                                 <button className="w-16 mb-5 bg-purple-600 h-9 rounded-xl text-white font-medium">
                                     {plan.name}
                                 </button>
-                                <p className="pb-10 text-gray-600">{plan.description} Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem aut cupiditate deserunt fugit nisi error!</p>
+                                <p className="pb-10 text-gray-600"> Simplify how you share medical, personal, plant, and pet details using smart QR cards.</p>
                                 <h1 className="text-4xl md:text-5xl">
-                                    <span className="font-semibold">Rs. {plan.amount}</span>{" "}
-                                    <span className="text-sm">
-                                        Once in {plan.interval} {periodToDays(plan.period)}
+                                    <span className="font-semibold">Rs. 0</span>{" "}
+                                    {/* <span className="text-sm">
+                                        {periodToDays(plan.period)}
                                         {plan.interval > 1 && "s"}
-                                    </span>
+                                    </span> */}
                                 </h1>
                                 <h2 className="text-sm mb-5">
                                     {user?.access.latestSubscription?.planId === plan._id &&
                                         ["active", "pending"].includes(user.access.latestSubscription.status) &&
                                         "active"}
                                 </h2>
-                                <hr />
+                                {/* <hr />
                                 <h1 className="pt-5">Details:</h1>
                                 <ul className="list-none pb-5">
                                     <li>Cards: {plan.cards}</li>
@@ -147,10 +147,10 @@ const PlanPage = () => {
                                     className="w-full border-2 h-12 font-semibold rounded-xl mt-5"
                                 >
                                     Get Started
-                                </button>
+                                </button> */}
                             </div>
                         ))}
-                    <div className="w-full sm:w-96 max-w-sm bg-gradient-to-b from-[#e1d7fa] to-[#ffffff] p-8 rounded-2xl shadow-md">
+                    {/* <div className="w-full sm:w-96 max-w-sm bg-gradient-to-b from-[#e1d7fa] to-[#ffffff] p-8 rounded-2xl shadow-md">
                         <button className="w-20 mb-5 h-9 rounded-xl font-bold text-black bg-white">
                             Custom
                         </button>
@@ -175,7 +175,7 @@ const PlanPage = () => {
                         >
                             Get Started
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

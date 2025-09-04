@@ -7,8 +7,10 @@ import Project from "../component/Project";
 import GetInvolved from "../component/GetInvoled";
 import NeedSupport from "../component/NeedSupport";
 import Donations from "../component/Donation";
+import SideBar from "../component/SideBar";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+
 
 const Home = () => {
   const location = useLocation();
@@ -24,18 +26,22 @@ const Home = () => {
       }, 100); // Delay helps after navigation
     }
   }, [location]);
+
   return (
-    <>
-      <Banner />
-      <About />
-      <WhatWeDo />
-      <Mission />
-      <Vision />
-      <Project />
-      <GetInvolved />
-      <NeedSupport />
-      <Donations /> 
-    </>
+    <div className="mx-auto overflow-hidden">
+      <SideBar />
+      <div className="relative flex flex-col mx-auto">
+        <Banner />
+        <About />
+        <WhatWeDo />
+        <Mission />
+        <Vision />
+        <Project />
+        <GetInvolved />
+        <NeedSupport />
+        <Donations />
+      </div>
+    </div>
   );
 };
 
